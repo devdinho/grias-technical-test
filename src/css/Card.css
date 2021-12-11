@@ -1,0 +1,18 @@
+.main__card {
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  flex: 1;
+  flex-basis: 240px;
+  border-radius: 6px;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, .1);
+}
+
+.main__card span:not(:nth-child(2)) {
+  font-weight: lighter;
+}
+
+.main__card span:nth-child(2) {
+
+}

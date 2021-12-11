@@ -1,8 +1,11 @@
 .header {
   background: linear-gradient(to right, #920D65, #D81C98);
   display: flex;
+  position: fixed;
+  width: 100%;
   justify-content: center;
   margin-bottom: 60px;
+  z-index: 999999;
 }
 
 .header__nav {
