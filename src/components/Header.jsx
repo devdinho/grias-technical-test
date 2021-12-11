@@ -6,10 +6,9 @@ function Header() {
   return (
     <header className="header">
       <nav className="header__nav">
-        <h1 className="header__logo">Logo</h1>
-        <a href="#">Home</a>
-        <a href="#">Projects</a>
-        <a href="#">About</a>
+        <h1 className="header__logo">gria</h1>
+        <a className="header__link" href="#">Oportunidades</a>
+        <a className="header__link" href="#">LOGIN</a>
       </nav>
     </header>
   );
