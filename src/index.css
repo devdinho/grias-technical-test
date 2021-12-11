@@ -10,3 +10,7 @@
 body, html {
   min-height: 100vh;
 }
+
+body {
+  background-color: #FCFCFC;
+}
