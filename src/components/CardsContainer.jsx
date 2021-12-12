@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from './Card';
-import '../css/CardsContainer.css';
+import '../styles/CardsContainer.css';
 
 const data = [
   { name: 'First', occupation: 'Dev', level: 'Junior', time: 'Integral', location: 'Rio de Janeiro' },

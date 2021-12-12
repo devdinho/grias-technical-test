@@ -1,9 +1,8 @@
 import React from 'react';
-import '../css/Card.css';
+import '../styles/Card.css';
 
 function Card({ props }) {
   const { name, occupation, level, time, location } = props;
-  console.log(props)
 
   return (
     <div className='main__card'>
