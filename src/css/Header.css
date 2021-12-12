@@ -5,16 +5,16 @@
   width: 100%;
   justify-content: center;
   margin-bottom: 60px;
-  z-index: 999999;
+  z-index: 999;
 }
 
 .header__nav {
   display: flex;
   align-items: center;
-  max-width: 90%;
-  padding: 12px 100px;
+  padding: 14px 40px;
   width: 100%;
-  gap: 60px;
+  max-width: 1270px;
+  gap: 35px;
 }
 
 .header__logo {

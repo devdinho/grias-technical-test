@@ -1,0 +1,32 @@
+.page {
+  margin-top: 80px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.page span {
+  color: #fff;
+}
+
+.page::before,
+.page::after {
+  content: '';
+  position: absolute; 
+  width: 6px;
+  height: 6px;
+}
+
+.page::before {
+  border-top: 2px solid silver;
+  border-left: 2px solid silver;
+  transform: translateX(-44px) rotate(-45deg);
+}
+
+.page::after {
+  border-top: 2px solid silver;
+  border-right: 2px solid silver;
+  transform: translateX(44px) rotate(45deg);
+}
