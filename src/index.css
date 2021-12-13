@@ -29,15 +29,18 @@ html, body {
 }
 
 .App h2 {
+  display: flex;
   font-size: 1.15rem;
   margin-bottom: 30px;
+  position: relative;
 }
 
 .App h2::after {
   content: '';
-  display: block;
-  width: 100px;
-  border-bottom: 3px solid #2665FE;
+  position: absolute;
+  width: 80px;
+  bottom: -8px;
+  border-top: 3px solid #2665FE;
 }
 
 .page {
@@ -59,3 +62,11 @@ body {
     display: none;
   }
 } */
+
+@media screen and (max-width: 720px) {
+  .App h2 {
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+  }
+}
