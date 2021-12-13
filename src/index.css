@@ -7,6 +7,10 @@
   font-family: Nunito, sans-serif;
 }
 
+*::before, *::after {
+  box-sizing: inherit;
+}
+
 html, body {
   min-height: 100vh;
 }
@@ -18,10 +22,22 @@ html, body {
 
 .App {
   align-items: center;
-  padding: 0 100px;
+  padding: 0 80px;
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+.App h2 {
+  font-size: 1.15rem;
+  margin-bottom: 30px;
+}
+
+.App h2::after {
+  content: '';
+  display: block;
+  width: 100px;
+  border-bottom: 3px solid #2665FE;
 }
 
 .page {
@@ -37,3 +53,9 @@ html, body {
 body {
   background-color: #FCFCFC;
 }
+
+/* @media screen and (max-width: 960px) {
+  .header__link, .header__link:after, .header__link:before {
+    display: none;
+  }
+} */

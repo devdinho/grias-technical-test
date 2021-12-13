@@ -5,14 +5,37 @@
   flex: 1;
   flex-basis: 240px;
   border-radius: 6px;
-  padding: 10px 20px;
+  padding: 20px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, .1);
+  gap: 25px;
 }
 
-.main__card span:not(:nth-child(2)) {
-  font-weight: lighter;
+.main__logo-wrapper {
+  display: flex;
+  gap: 15px;
 }
 
-.main__card span:nth-child(2) {
+.main__picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 4px solid silver;
+  background-image: radial-gradient(
+    circle 25px at 50% 90%,
+    silver 50%,
+    transparent 55%
+    ), radial-gradient(
+      circle 13px at 50% 40%,
+      silver 50%,
+      transparent 58%
+    );
+}
 
+.main__span-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__span-wrapper + span {
+  font-size: 0.85rem;
 }

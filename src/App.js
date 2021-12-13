@@ -3,6 +3,7 @@ import Main from './components/Main';
 import SearchBox from './components/SearchBox';
 import CardsContainer from './components/CardsContainer';
 import Page from './components/Page';
+import data from './data';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Header />
       <Main>
         <SearchBox />
-        <h3>Encontramos X oportunidades cadastradas</h3>
+        <h2>Encontramos { data.length } oportunidades cadastradas</h2>
         <CardsContainer />
       </Main>
       <Page />

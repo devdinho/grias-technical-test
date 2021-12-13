@@ -6,11 +6,17 @@ function Card({ props }) {
 
   return (
     <div className='main__card'>
-      <span>{ name }</span>
+      <div className='main__logo-wrapper'>
+        <div className='main__picture'></div>
+        <span>{ name }</span>
+      </div>
       <strong><span>{ occupation }</span></strong>
-      <span>{ level }</span>
-      <span>{ time }</span>
-      <span>{ location }</span>
+      <div class='main__span-wrapper'>
+        <span>{ level }</span>
+        <span>{ time }</span>
+        <span>{ location }</span>
+      </div>
+      <span>Criada há { Math.random() * 15 + 1 | 0 } dias</span>
     </div>
   );
 }

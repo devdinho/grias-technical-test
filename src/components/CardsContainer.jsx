@@ -1,25 +1,7 @@
 import React from 'react';
 import Card from './Card';
 import '../styles/CardsContainer.css';
-
-const data = [
-  { name: 'First', occupation: 'Dev', level: 'Junior', time: 'Integral', location: 'Rio de Janeiro' },
-  { name: 'First', occupation: 'Dev', level: 'Junior', time: 'Integral', location: 'Rio de Janeiro' },
-  { name: 'First', occupation: 'Dev', level: 'Junior', time: 'Integral', location: 'Rio de Janeiro' },
-  { name: 'First', occupation: 'Dev', level: 'Junior', time: 'Integral', location: 'Rio de Janeiro' },
-  { name: 'First', occupation: 'Dev', level: 'Junior', time: 'Integral', location: 'Rio de Janeiro' },
-  { name: 'First', occupation: 'Dev', level: 'Junior', time: 'Integral', location: 'Rio de Janeiro' },
-  { name: 'First', occupation: 'Dev', level: 'Junior', time: 'Integral', location: 'Rio de Janeiro' },
-  { name: 'First', occupation: 'Dev', level: 'Junior', time: 'Integral', location: 'Rio de Janeiro' },
-  { name: 'First', occupation: 'Dev', level: 'Junior', time: 'Integral', location: 'Rio de Janeiro' },
-  { name: 'First', occupation: 'Dev', level: 'Junior', time: 'Integral', location: 'Rio de Janeiro' },
-  { name: 'First', occupation: 'Dev', level: 'Junior', time: 'Integral', location: 'Rio de Janeiro' },
-  { name: 'First', occupation: 'Dev', level: 'Junior', time: 'Integral', location: 'Rio de Janeiro' },
-  { name: 'First', occupation: 'Dev', level: 'Junior', time: 'Integral', location: 'Rio de Janeiro' },
-  { name: 'First', occupation: 'Dev', level: 'Junior', time: 'Integral', location: 'Rio de Janeiro' },
-  { name: 'First', occupation: 'Dev', level: 'Junior', time: 'Integral', location: 'Rio de Janeiro' },
-  { name: 'First', occupation: 'Dev', level: 'Junior', time: 'Integral', location: 'Rio de Janeiro' },
-];
+import data from '../data';
 
 function CardsContainer() {
 
